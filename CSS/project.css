@@ -1,0 +1,48 @@
+div
+{
+   background-image:url(g2.jpg);
+   background-repeat:no-repeat;
+   background-size:auto;
+   background-clip: border-box;
+   height:100%;
+   background-attachment:fixed;
+   background-position:center;
+   background-origin: content-box;
+   padding:0px;
+}
+.mainnav
+{
+	list-style:none;
+	padding:0px;
+	position:fixed;
+	background-color:transparent;
+	top:0px;
+	overflow:hidden;
+	margin:0;
+	width:100%;
+}
+ li
+{
+	float:left;
+}
+.mainnav li a 
+{
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:transparent;
+  font-size:20px;
+}
+.mainnav a:hover
+{
+	background-color:grey;
+}
+.mainnav a.active 
+{
+	
+	background-color:red;
+}
+
